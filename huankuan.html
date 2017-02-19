@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/huankuan.css">
+</head>
+<body>
+   <div class="head">
+    <div class="tupian1">
+        <img src="images/dayuhao.png" alt="">
+    </div>
+    <div class="wenzi">爱租哪</div>
+    </div>
+            <div class="rel">
+     <div class="center">支付信息</div>
+    
+     
+     <div class="dingdan">
+         <div class="bianhao">订单编号：</div>
+         <div class="haoma">18325557323</div>
+     </div>
+     
+     <div class="shoukuan">
+         <div class="shoukuanren">收款人：</div>
+         <div class="wenzi1">爱租哪</div>
+     </div>
+     
+      <div class="zhifu">
+         <div class="jine">支付金额：</div>
+         <div class="wenzi1">2000元</div>
+     </div>
+   </div>
+   <div class="tet">
+       <div class="fangshi">支付方式</div>
+   <div class="weixin">
+       <div class="weixin-left">
+       </div>
+       <div class="zhongjian">
+           <div class="weixinzhifu">微信支付</div>
+           <div class="tuijian">推荐安转微信5.0以上版本的使用</div>
+       </div>
+       <div class="h yuanquan data1"></div>
+   </div>
+   
+   <div class="zhifubao">
+       <div class="zhifubao-left">
+       </div>
+       <div class="zhongjian">
+           <div class="zhifubaozhifu">支付宝支付</div>
+           <div class="tuijian1">推荐有支付宝账号的用户使用</div>
+       </div>
+       <div class="h true data2"></div>
+   </div>
+</div>
+<div class="queren">确认支付</div>
+</body>
+</html>
+<script src="js/jquery.min.js"></script>
+<script>
+    $(function(){
+       $(".h").click(function(){
+           var index = $(".h").index(this);
+           if(index==0){
+              $(".data1").addClass("true");
+              $(".data1").removeClass("yuanquan");
+               $(".data2").addClass("yuanquan");
+              $(".data2").removeClass("true");
+           }
+           if(index==1){
+              $(".data1").addClass("yuanquan");
+              $(".data1").removeClass("true");
+               $(".data2").addClass("true");
+              $(".data2").removeClass("yuanquan");
+           }
+       })   
+    })
+</script>
+
+
+
+
+
+
+
+
+
+
+

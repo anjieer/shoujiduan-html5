@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/banli2.css">
+</head>
+<body>
+       <div class="test">爱租哪&nbsp;&nbsp;&nbsp;
+    <div class="huadong"></div>
+    </div>
+    
+    <div class="test-first">
+        <div class="img fr">
+            <div class="img-three"></div>
+            <span>审核</span>
+        </div>
+        <div class="img  fl">
+            <div class="img-one">
+                <div class="true"></div>
+            </div>
+            <span>身份信息</span>
+        </div>
+        <div class="img img_two">
+            <div class="img-two"></div>
+            <span>租房资料</span>
+        </div> 
+            <div class="arrow-con">
+                <div class="arrow"></div>
+                <div class="arrow-one"></div>
+            </div>
+    </div>
+
+   
+
+     <div class="center1">
+        <div class="center-real1">
+            <div class="center-zt2">
+                <div class="zuyue">姓名</div>
+                <span class="shuxian1">|</span>
+                <input type="text" class="shuru1" value="请输入姓名">
+                </div>
+            </div>
+        </div>
+        
+        <div class="center2">
+        <div class="center-real2">
+            <div class="center-zt2">
+                <div class="zuqi">证件号</div>
+                <span class="shuxian2">|</span>
+                <input type="text" class="shuru2" value="请输入身份证号码">
+            </div>
+        </div>
+    </div>
+    
+    <div class="center3">
+        <div class="center-real3">
+            <div class="center-zt3">
+                <div class="yuezujin">银行卡号</div>
+                <span class="shuxian3">|</span>
+                <input type="text" class="yuan1" value="请输入银行卡卡号">
+            </div>
+        </div>
+    </div>
+    
+    
+     <div class="center4">
+        <div class="center-real4">
+            <div class="center-zt4">
+                <div class="shenfen">身份</div>
+                <span class="shuxian4">|</span>
+                <div class="quan">
+                    <img class="data1" src="images/radio.png" alt="">  
+                </div>
+                 <div class="zaizhi">在职</div>
+                 
+                 <div class="quan">
+                    <img class="data2" src="images/radio_.png" alt="">  
+                </div>
+                 <div class="zaizhi">学生</div> 
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="center5">
+        <div class="center-real5">
+            <div class="center-zt5">
+                <div class="yuezujin">上传附件</div>
+                <span class="shuxian5">|</span>
+               <div class="yuan2">请上传工牌，名片，劳动合同，在职合同，四选一即可</div>
+            </div>
+               <div class="xiangji"></div>
+        </div>
+    </div>
+    
+
+ <div class="center6">
+        <div class="center-real6">
+            <div class="center-zt6">
+                <div class="shenfenzheng">身份证</div>
+                <span class="shuxian6">|</span>
+               <div class="yuan3">需看清身份证信息</div>
+            </div>
+              <div class="xiangji1"></div>
+        </div>
+    </div>
+    <div class="xiayibu">下一步</div>
+</body>
+</html>
+<script src="js/jquery.min.js"></script>
+<script>
+    $(function(){
+    $(".quan").click(function(){
+        var index = $(".quan").index(this);
+           if(index==0){
+              $(".data1").attr("src","images/radio.png");
+               $(".data2").attr("src","images/radio_.png");
+           }
+           if(index==1){
+              $(".data2").attr("src","images/radio.png");
+              $(".data1").attr("src","images/radio_.png");
+           }
+    })
+})
+</script>
+

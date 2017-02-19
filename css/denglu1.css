@@ -1,0 +1,128 @@
+.toubu{
+    width:100%;
+    height:30px;
+}
+.toubu1{
+    width:auto;
+    height:30px;
+    color:#afafaf;
+    font-size:12px;
+    text-align: center;
+    line-height: 30px;
+    margin:auto;
+}
+.yonghu{
+    width:100%;
+    height:35px;
+}
+.yonghu-1{
+    width:auto;
+    height:35px;
+    margin:0 20px 0 20px;
+    background:#ffffff;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+}
+.shouji{
+    width:45px;
+    height:35px;
+    background:url(../images/shouji.png)center center no-repeat;
+    float:left;
+}
+.wenzi{
+       width:auto;
+       height:100%;
+       margin-left:50px;
+}
+.shuru{
+    width:100%;
+    height:15px;
+    margin-top:10px;
+    outline: none;
+    border:none;
+    color:#b3b3b3;
+    font-size:12px;  
+}
+
+.yanzhengma{
+    width:100%;
+    height:35px;
+    margin-top:9px;
+}
+.yanzhengma-1{
+    width:auto;
+    height:35px;
+    margin:0 115px 0 20px;
+    background:#ffffff;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+}
+.yanzhengma-left{
+    width:auto;
+    height:35px;
+}
+.suo{
+    width:45px;
+    height:35px;
+    background:url(../images/suo.png)center center no-repeat;
+    float:left;
+}
+.wenzi1{
+    width:auto;
+    height:100%;
+    margin-left:50px;
+}
+.shuru1{
+    width:100%;
+    height:15px;
+    margin-top:10px;
+    outline: none;
+    border:none;
+    color:#b3b3b3;
+    font-size:12px;  
+}
+.btn{
+    width:85px;
+    height:35px;
+    outline: none;
+    border:none;
+    color:#fff;
+    font-size:14px;
+    float:right;
+    border-radius: 4px;
+    background:#ffd27c;
+    margin:-35px 20px 0 214px;
+}
+.denglu{
+    width:auto;
+    height:42px;
+    background:#43ccf0;
+    border-radius: 4px;
+    margin:15px 20px 0 20px;
+    text-align: center;
+    font-size:16px;
+    line-height: 42px;
+    color:white;
+}
+
+.wenzi2{
+    width:100%;
+    height:20px;
+    line-height: 20px;
+    color:#999999;
+    font-size:12px;
+    margin: 10px 20px 0 20px;
+}
+.xieyi{
+    height:20px;
+    color:#43ccf0;
+    font-size:12px;
+    text-decoration: none;
+    margin: auto;
+} 
+
+.img{
+    width: 32%;
+    height: auto;
+    margin: 70px auto 0 auto;
+}

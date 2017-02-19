@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="css/denglu1.css">
+</head>
+<body>
+    <div class="toubu">
+        <div class="toubu1">新用户无需注册，使用短信验证码可直接登录</div>
+    </div>
+    <div class="yonghu">
+        <div class="yonghu-1">
+            <div class="shouji"></div>
+            <div class="wenzi">
+             <input type="text" class="shuru" value="手机号码/用户名">
+             </div>
+             </div>
+        </div>
+        <div class="yanzhengma">
+            <div class="yanzhengma-1">
+                <div class="yanzhengma-left">
+                    <div class="suo"></div>
+                    <div class="wenzi1">
+                        <input type="text" class="shuru1" value="验证码">
+                    </div>
+                 </div>
+             </div>
+           <input type="button" class="btn" value="获取验证码">
+    </div>
+    <div class="denglu">
+      登       录
+    </div>
+    <div class="wenzi2">
+    登录表示您同意
+    <a href="####" class="xieyi">《爱租月付会员服务协议》</a>
+    </div>
+    <div class="img">
+        <img src="images/shui.png" width="100%" alt="">
+    </div>
+</body>
+</html>
+<script src="js/jquery.min.js"></script>
+<script>
+    $(function(){
+      $(".btn").click(function(){
+          var i = 59;
+          var set;
+          set = setInterval(function(){
+            if(i>0){
+                $(".btn").val(i);
+                i--;
+                $(".btn").css("background","#bbb");
+            }else{
+                clearInterval(set);
+                $(".btn").css("background","#ffd27c");
+                $(".btn").val("再次获取");
+            }
+          },1000)
+      })  
+    })
+</script>
